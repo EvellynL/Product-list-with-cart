@@ -1,13 +1,13 @@
 {
     "producs": [
-        { "id": 1, "name": "Waffle with berries", "sub_text": "Waffle", "Price": "$6.50", "img": "../src/assets/image-waffle-desktop.jpg"},
-        { "id": 2, "name": "Vanilla Bean Crème Brûlée", "sub_text": "Crème Brûlée", "Price": "$7.00", "img": "../src/assets/image-creme-brulee-desktop.jpg"},
-        { "id": 3, "name": "Macaron Mix of Five", "sub_text": "Macaron", "Price": "$8.00", "img": "../src/assets/image-macaron-desktop.jpg"},
-        { "id": 4, "name": "Classic Tiramisu", "sub_text": "Tiramisu", "Price": "$ 5.50", "img": "../src/assets/image-tiramisu-desktop.jpg"},
-        { "id": 5, "name": "Pistacchio Baklava", "sub_text": "Baklava", "Price": "$4.00", "img": "../src/assets/image-baklava-desktop.jpg"},
-        { "id": 6, "name": "Lemon Meringue Pie", "sub_text": "Pie", "Price": "$5.00", "img": "../src/assets/image-meringue-desktop.jpg"},
-        { "id": 7, "name": "Red Velvet Cake", "sub_text": "Cake", "Price": "$4.50", "img": "../src/assets/image-cake-desktop.jpg"},
-        { "id": 8, "name": "Salted Caramel Brownie", "sub_text": "Brownie", "Price": "$5.50", "img": "../src/assets/image-brownie-desktop.jpg"},
-        { "id": 9, "name": "Vanilla Panna Cotta", "sub_text": "Panna Cotta", "Price": "$ 6.50", "img": "../src/assets/image-panna-cotta-desktop.jpg"}
+        { "id": 1, "name": "Waffle with berries", "sub_text": "Waffle", "Price": "$6.50", "img": "../src/assets/image-waffle-desktop.jpg", "tumb": "../src/assets/image-waffle-thumbnail.jpg"},
+        { "id": 2, "name": "Vanilla Bean Crème Brûlée", "sub_text": "Crème Brûlée", "Price": "$7.00", "img": "../src/assets/image-creme-brulee-desktop.jpg", "tumb": "../src/assets/image-creme-brulee-thumbnail.jpg"},
+        { "id": 3, "name": "Macaron Mix of Five", "sub_text": "Macaron", "Price": "$8.00", "img": "../src/assets/image-macaron-desktop.jpg", "tumb": "../src/assets/image-macaron-thumbnail.jpg"},
+        { "id": 4, "name": "Classic Tiramisu", "sub_text": "Tiramisu", "Price": "$ 5.50", "img": "../src/assets/image-tiramisu-desktop.jpg", "tumb": "../src/assets/image-tiramisu-thumbnail.jpg"},
+        { "id": 5, "name": "Pistacchio Baklava", "sub_text": "Baklava", "Price": "$4.00", "img": "../src/assets/image-baklava-desktop.jpg", "tumb": "../src/assets/image-baklava-thumbnail.jpg"},
+        { "id": 6, "name": "Lemon Meringue Pie", "sub_text": "Pie", "Price": "$5.00", "img": "../src/assets/image-meringue-desktop.jpg", "tumb": "../src/assets/image-meringue-thumbnail.jpg"},
+        { "id": 7, "name": "Red Velvet Cake", "sub_text": "Cake", "Price": "$4.50", "img": "../src/assets/image-cake-desktop.jpg", "tumb": "../src/assets/image-cake-thumbnail.jpg"},
+        { "id": 8, "name": "Salted Caramel Brownie", "sub_text": "Brownie", "Price": "$5.50", "img": "../src/assets/image-brownie-desktop.jpg", "tumb": "../src/assets/image-brownie-thumbnail.jpg"},
+        { "id": 9, "name": "Vanilla Panna Cotta", "sub_text": "Panna Cotta", "Price": "$ 6.50", "img": "../src/assets/image-panna-cotta-desktop.jpg", "tumb": "../src/assets/image-panna-cotta-thumbnail.jpg"}
     ]
 }

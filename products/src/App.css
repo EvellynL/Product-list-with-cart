@@ -13,6 +13,21 @@
     --Rose-900: hsl(14, 65%, 9%);
   }
 
+html {
+  background-color: var(--Rose-100);
+}
+
+body.overlay-active::before {
+     content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 998;
+}
+
 .main {
     margin: 5rem;
     display: flex;
@@ -21,7 +36,7 @@
 }
 
 .products {
-    height: 800px;
+    height: auto;
     width: 60%;
 }
 
@@ -29,14 +44,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 10px; 
+    gap: 30px; 
     padding: 20px;
+    margin: 1rem;
 }
 
 .car {
     height: auto;
     background-color: var(--Rose-50);
-    width: 300px;
+    max-width: 700px;
     text-align: center;
     padding: 2rem;
     border-radius: 10px;
@@ -49,4 +65,142 @@
 
 .car p {
     color: var(--Rose-300);
+}
+
+.itens-to-car{
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   width: 400px;
+   margin-bottom: 1.5rem;
+   border-bottom: 1px solid #ccc;
+   padding: 1rem;
+}
+
+.itens-to-car h3 {
+    color: var(--Rose-400);
+    font-size: 16px;
+    text-align: left;
+}
+
+.itens-select{
+    display: flex;
+    justify-content: space-between;
+}
+
+#remove {
+    border:none;
+    background-color: #fff;
+    border-radius: 100px; 
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: #000;
+}
+
+.itens-information {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+#quantidade {
+    font-size: 20px;
+    color: var(--Red);
+    font-weight: 500;
+}
+
+#price-total-un{
+    color: var(--Rose-500);
+}
+
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: .5rem;
+    gap: 10px;
+}
+
+.order-total p {
+    color: var(--Rose-500);
+    font-size: 18px;
+}
+
+#confirm {
+    background-color: #bd340d;
+    color: #fff;
+    font-size: 20px;
+    border:none;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#confirm:hover {
+    background-color: #882408;
+}
+
+.hiden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+    color: red;
+}
+
+.order-confirmation {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+
+.cart-empty {
+    display: block;
+    color: red !important; 
+    padding: .5rem;
+    font-weight: 500;
+}
+
+@media (max-width: 650px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
+
+    .order-confirmation{
+        width: 450px;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 1100px) {
+     .main {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
+    
+    .products {
+        width: 60%;
+    }
+    .cards {
+        gap: 20px;
+    
+    }
 }
